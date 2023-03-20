@@ -1,0 +1,89 @@
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.topnav {
+    margin-left: 0;
+    background-color: #F79189;
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 990px;
+height: 53px;
+left: -8px;
+top: 209px;
+
+/* rosa */
+background: #F79189;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}   
+
+/* Style the links inside the navigation bar */
+.topnav a {
+    float: left;
+    color: #FFFF;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+    background-color: #A53F37;
+    color: white;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+    background-color: #04AA6D;
+    color: white;
+}
+
+.logo {
+    height: 345.85794038454145px;
+    width: 306.8154599484478px;
+    left: 70px;
+    top: -75.796875px;
+    border-radius: 0px;
+}
+
+.logo_banner {
+    background-color: #000
+}
+
+.search_bar input[type=text] {
+    position: absolute;
+    width: 346px;
+    height: 25px;
+    left: 600px;
+    top: 450px;
+
+    background: #D9D9D9;
+}
+.menuCSS3 ul {
+    display: flex;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+.menuCSS3 a {
+    display: block;
+    padding: 2em;
+    background-color: #F79189;
+    text-decoration: none;
+
+}
+.menuCSS3 a:hover {
+    background-color: #A53F37;
+}
+.menuCSS3 ul li ul {
+    display: none;
+}
+.menuCSS3 ul li a:hover + ul, .menuCSS3 ul li ul:hover {
+    display: block;
+}
+
